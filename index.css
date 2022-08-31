@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.flag-contianer {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.green {
+    width: 100px;
+    height: 200px;
+    background-color: green;
+}
+
+.white {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+}
+
+
+/* media query starts here */
+
+@media (max-width:480px) {
+    body {
+        background-color: white;
+    }
+    .green {
+        width: 100px;
+        height: 200px;
+        background-color: red;
+    }
+    .white {
+        width: 100px;
+        height: 200px;
+        background-color: black;
+    }
+}
