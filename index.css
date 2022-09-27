@@ -1,5 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
 }
 
 .flag-contianer {
@@ -25,7 +35,7 @@ body {
 
 /* media query starts here */
 
-@media (max-width: 480px) {
+@media screen and (max-width: 720px) {
     body {
         background-color: white;
     }
